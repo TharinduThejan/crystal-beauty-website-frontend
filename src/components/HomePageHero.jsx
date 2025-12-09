@@ -26,7 +26,7 @@ export default function HomePageHero() {
       {/* Right Image Section */}
       <div className="flex-1 flex justify-center items-center gap-4">
         <img
-          src="../../../public/pink-makeup.jpg"
+          src="https://wygdrdwatnbwuuuwglbc.supabase.co/storage/v1/object/public/images/pink-makeup.jpg"
           alt="Lipstick"
           className="rounded-lg object-cover"
         />
