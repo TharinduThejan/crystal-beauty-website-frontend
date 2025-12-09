@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-
 export default function HomePageHero() {
   return (
     <section className="bg-pink-100 flex flex-col-reverse md:flex-row items-center justify-between max-w-7xl mx-auto rounded-3xl p-8 sm:p-12 my-8 shadow-lg overflow-hidden">
@@ -27,7 +26,7 @@ export default function HomePageHero() {
       {/* Right Image Section */}
       <div className="flex-1 flex justify-center items-center gap-4">
         <img
-          src="../../../public/pink-makeup.jpg"
+          src="https://wygdrdwatnbwuuuwglbc.supabase.co/storage/v1/object/public/images/pink-makeup.jpg"
           alt="Lipstick"
           className="rounded-lg object-cover"
         />
